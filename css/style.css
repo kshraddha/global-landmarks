@@ -1,0 +1,1064 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#page {
+  position: relative;
+  z-index: 20;
+  background: #fff;
+  height: 100%;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 350px) {
+  .site_header {
+    height: 60px;
+  }
+  .site_title {
+    padding: 20px 15px;
+    width: calc(100% - 70px);
+  }
+  .main {
+    height: 180px;
+    margin: 15px;
+  }
+  h1 a,
+  h1 {
+    font-size: 22px;
+    height: 25px;
+  }
+  .globe {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  #nav_icon {
+    height: 25px;
+    width: 25px;
+    margin: 20px 0;
+  }
+  .nav_bar {
+    display: none;
+  }
+  .mobile_nav {
+    font-size: 23px;
+  }
+  #nav_menu {
+    padding: 40px 25px;
+  }
+  .mobile_submenu {
+    padding-left: 50px;
+    font-size: 18px;
+  }
+  #site_explore {
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  #list_title {
+    margin: 0 15px 0 15px;
+  }
+  #list_title_head {
+    font-size: 18px;
+  }
+  .places_list {
+    display: none;
+  }
+  .row {
+    margin: 0 15px;
+  }
+  #list_title_content {
+    font-size: 15px;
+  }
+  .list_content {
+    margin: 15px;
+  }
+  .list_image {
+    max-height: 200px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+  }
+  .social {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  .references,
+  .about {
+    width: calc((100% - 60px)/2);
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+  }
+  footer div a {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .footer_head {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  .site_header {
+    height: 60px;
+  }
+  .site_title {
+    padding: 20px 20px;
+    width: calc(100% - 85px);
+  }
+  .main {
+    height: 250px;
+    margin: 20px;
+  }
+  h1 a,
+  h1 {
+    font-size: 25px;
+    height: 25px;
+  }
+  .globe {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  #nav_icon {
+    height: 25px;
+    width: 25px;
+    margin: 20px 0;
+  }
+  .nav_bar {
+    display: none;
+  }
+  .mobile_nav {
+    font-size: 23px;
+  }
+  #nav_menu {
+    padding: 40px 25px;
+  }
+  .mobile_submenu {
+    padding-left: 50px;
+    font-size: 18px;
+  }
+  #site_explore {
+    font-size: 30px;
+    padding-top: 90px;
+  }
+  #list_title {
+    margin: 0 20px 0 20px;
+  }
+  #list_title_head {
+    font-size: 24px;
+  }
+  .places_list {
+    display: none;
+  }
+  .row {
+    margin: 0 20px;
+  }
+  #list_title_content {
+    font-size: 18px;
+  }
+  .list_content {
+    margin: 20px;
+  }
+  .list_image {
+    max-height: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+  }
+  footer div {
+    width: calc((100% - 120px)/3);
+    height: 100px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+  }
+  footer div a {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .footer_head {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .site_header {
+    height: 70px;
+    padding: 0 30px
+  }
+  .site_title {
+    padding: 20px 0;
+    width: calc(100% - 25px);
+  }
+  .main {
+    height: 340px;
+    margin: 30px;
+  }
+  h1 a,
+  h1 {
+    font-size: 25px;
+    height: 25px;
+  }
+  .globe {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  #nav_icon {
+    height: 25px;
+    width: 25px;
+    margin: 20px 0;
+  }
+  .nav_bar {
+    display: none;
+  }
+  .mobile_nav {
+    font-size: 23px;
+  }
+  #nav_menu {
+    padding: 40px 25px;
+  }
+  .mobile_submenu {
+    padding-left: 50px;
+    font-size: 18px;
+  }
+  #site_explore {
+    font-size: 30px;
+    padding-top: 90px;
+  }
+  #list_title {
+    margin: 0 30px 0 30px;
+  }
+  #list_title_head {
+    font-size: 30px;
+  }
+  .places_list {
+    display: none;
+  }
+  .row {
+    margin: 0 30px;
+  }
+  #list_title_content {
+    font-size: 20px;
+  }
+  .list_content {
+    margin: 25px;
+  }
+  .list_image {
+    max-height: 400px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+  }
+  footer div {
+    width: calc((100% - 120px)/3);
+    height: 100px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+  footer div a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .footer_head {
+    font-size: 23px;
+  }
+}
+
+
+/*screen size more than 750*/
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .site_header {
+    height: 95px;
+    padding: 0 65px
+  }
+  .site_title {
+    padding: 15px 0;
+    width: calc(100% - 35px);
+  }
+  .main {
+    height: 450px;
+    margin: 40px 65px;
+  }
+  #nav_icon {
+    height: 35px;
+    width: 35px;
+    margin: 15px 0;
+    float: right;
+  }
+  .nav_bar {
+    display: none;
+  }
+  .mobile_nav {
+    font-size: 23px;
+  }
+  #nav_menu {
+    padding: 40px 25px;
+  }
+  .mobile_submenu {
+    padding-left: 50px;
+    font-size: 20px;
+  }
+  h1 a,
+  h1 {
+    font-size: 35px;
+    height: 35px;
+  }
+  .globe {
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  #site_explore {
+    font-size: 35px;
+    padding-top: 150px;
+  }
+  #list_title_head {
+    font-size: 30px;
+  }
+  #list_title_content {
+    font-size: 20px;
+  }
+  #list_title {
+    margin: 0 65px 0 65px;
+  }
+  .list_content {
+    margin: 20px;
+  }
+  .places_list {
+    display: none;
+  }
+  .row {
+    margin: 0px 65px;
+  }
+  .list_image {
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+  }
+  footer div {
+    width: calc((100% - 180px)/3);
+    height: 100px;
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 0;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  footer div a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .footer_head {
+    font-size: 23px;
+  }
+}
+
+
+/* for screen size more than 1100*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .site_header {
+    height: 100px;
+    padding: 0 75px;
+  }
+  .site_title {
+    padding: 16px 0;
+  }
+  h1 a,
+  h1 {
+    font-size: 35px;
+    height: 35px;
+  }
+  .globe {
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  .main {
+    height: 580px;
+    margin: 25px 75px;
+  }
+  .nav_bar {
+    padding-top: 20px;
+    float: right;
+  }
+  .nav_bar ul {
+    height: 80px;
+  }
+  .nav_border {
+    height: 60px;
+  }
+  .dropdown-content {
+    margin-left: 50px;
+  }
+  .nav_items {
+    font-size: 18px;
+    padding-top: 15px;
+    margin-left: 50px;
+  }
+  #site_explore {
+    font-size: 60px;
+    padding-top: 130px;
+  }
+  .list {
+    margin: 10px;
+  }
+  #list_title_head {
+    font-size: 30px;
+  }
+  #list_title_content {
+    font-size: 20px;
+    padding-right: 30px;
+  }
+  #list_title {
+    float: left;
+    width: 65%;
+  }
+  .top_places {
+    margin: 0 75px 0 75px;
+    height: 300px;
+  }
+  .places_list {
+    margin-top: 10px;
+    float: right;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background-color: #F8F8F8;
+    text-align: center;
+    line-height: 150%;
+  }
+  .places_list_title {
+    padding: 10px 0;
+    font-size: 30px;
+    background-color: #355c7d;
+    color: white;
+  }
+  .places_list a {
+    padding-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #3E3D3D;
+    font-size: 18px;
+  }
+  .list_content {
+    margin: 15px 10px;
+    float: left;
+    width: calc((100% - 40px)/2);
+  }
+  .row {
+    margin: 0px 55px;
+  }
+  .list_image {
+    height: 330px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 10px 10px 10px;
+  }
+  #nav_icon {
+    display: none;
+  }
+  footer div {
+    width: calc((100% - 180px)/3);
+    height: 100px;
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 0;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  footer div a {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .footer_head {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .site_header {
+    height: 100px;
+    padding: 0 100px;
+  }
+  .site_title {
+    padding: 25px;
+  }
+  .nav_bar {
+    padding-top: 25px;
+    float: right;
+  }
+  .nav_bar ul {
+    height: 75px;
+  }
+  .dropdown-content {
+    margin-left: 50px;
+  }
+  .nav_items {
+    font-size: 18px;
+    margin-left: 50px;
+    padding-top: 15px;
+  }
+  .nav_border {
+    height: 55px;
+  }
+  #nav_icon {
+    display: none;
+  }
+  h1 a,
+  h1 {
+    font-size: 35px;
+    height: 35px;
+  }
+  .globe {
+    height: 46px;
+    width: 46px;
+    float: left;
+    margin-right: 5px;
+  }
+  .travel {
+    float: left;
+  }
+  .main {
+    height: 540px;
+    margin: 25px 100px;
+  }
+  #site_explore {
+    font-size: 60px;
+    padding-top: 150px;
+  }
+  #list_title_head {
+    font-size: 30px;
+  }
+  #list_title_content {
+    font-size: 20px;
+    padding-right: 50px;
+  }
+  #list_title {
+    float: left;
+    width: 70%;
+  }
+  .top_places {
+    margin: 0 100px 0 100px;
+    height: 250px;
+  }
+  .row {
+    margin: 0px 90px
+  }
+  .list_content {
+    margin: 15px 10px;
+    float: left;
+    width: calc((100% - 60px)/3);
+  }
+  .list_image {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+  }
+  .list_para {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 10px 10px 10px;
+  }
+  .places_list {
+    float: right;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background-color: #F8F8F8;
+    text-align: center;
+    line-height: 150%;
+  }
+  .places_list_title {
+    padding: 10px 0;
+    font-size: 30px;
+    background-color: #355c7d;
+    color: white;
+  }
+  .places_list a {
+    padding: 7px 10px;
+    display: block;
+    text-decoration: none;
+    color: #3E3D3D;
+    font-size: 18px;
+  }
+  footer div {
+    padding: 10px 30px;
+    width: calc((100% - 180px)/3);
+    height: 100px;
+    float: left;
+    text-align: center;
+  }
+  .footer_head {
+    font-size: 23px;
+  }
+  .fb,
+  .li,
+  .git {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+}
+
+
+/* Header */
+
+header {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.site_title {
+  margin: 0;
+  float: left;
+}
+
+h3 {
+  margin: 10px 0 5px 0;
+}
+
+h1 a {
+  font-weight: 400;
+  font-family: 'Roboto condensed', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.travel:after {
+  content: "";
+  height: 1px;
+  background: linear-gradient(to right, #355c7d 0%, white 50%, #355c7d 100%);
+  display: block;
+}
+
+.site_header {
+  background-color: #355c7d;
+}
+
+
+/* Mobile navigation icon*/
+
+#nav_icon {
+  background-size: cover;
+  box-sizing: border-box;
+  position: absolute;
+  background-image: url(../images/menu.png);
+}
+
+
+/* CSS for mobile navigation menu*/
+
+#nav_menu {
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 190px;
+  margin: 0;
+  list-style: none;
+  background: #2d4f6b;
+  z-index: 10;
+}
+
+.continents_menu {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile_submenu {
+  list-style: circle;
+  border-bottom: 1px solid rgba( 255, 255, 255, 0.05);
+}
+
+.mobile_nav {
+  display: block;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.mb_nav {
+  border-bottom: 1px solid rgba( 255, 255, 255, 0.05);
+}
+
+#page,
+#nav_menu {
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+.animating #nav_menu,
+.nav_menu-visible #nav_menu {
+  display: block;
+}
+
+.animating #page {
+  transition: transform .25s ease-in-out;
+  -webkit-transition: -webkit-transform .25s ease-in-out;
+}
+
+.animating.left #page {
+  transform: translate3d( -240px, 0, 0);
+  -webkit-transform: translate3d( -240px, 0, 0);
+}
+
+.animating.right #page {
+  transform: translate3d( 240px, 0, 0);
+  -webkit-transform: translate3d( 240px, 0, 0);
+}
+
+.nav_menu-visible #page {
+  right: 240px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* Desktop navigation bar*/
+
+.nav_bar {
+  margin: 0;
+}
+
+.nav_bar li {
+  float: left;
+}
+
+.nav_items {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.nav_items,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav_border:hover {
+  border-bottom: 5px solid white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2d4f6b;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #233D52
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* End of header */
+
+
+/* Page content */
+
+.main {
+  box-sizing: border-box;
+  text-align: center;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  z-index: -1;
+}
+
+#slider {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+
+.blackbg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 100%;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: -1;
+  position: relative;
+}
+
+#site_explore {
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#slider figure {
+  overflow: hidden;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slide1 infinite;
+}
+
+@keyframes slide1 {
+  0% {
+    left: 0%;
+  }
+  12.5% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  37.5% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  62.5% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  87.5% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+@-webkit-keyframes slide1 {
+  0% {
+    left: 0%;
+  }
+  12.5% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  37.5% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  62.5% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  87.5% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+#list_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#list_title_head {
+  color: #355c7d;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+#list_title_content {
+  color: #707070;
+  text-align: justify;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  line-height: 140%;
+}
+
+.row {
+  padding: 0;
+}
+
+.list {
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.list_image {
+  box-sizing: border-box;
+}
+
+.list_para {
+  margin: 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Footer*/
+
+footer {
+  float: left;
+  width: 100%;
+  background: #355c7d url('../images/mountains.png') no-repeat;
+  background-position: 0% 100%;
+  background-size: cover;
+}
+
+.references a,
+.about a,
+.footer_head {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+footer div a {
+  font-weight: 300;
+}
+
+.fb {
+  background-image: url(../images/facebook.png);
+  background-size: cover;
+}
+
+.li {
+  background-image: url(../images/linkedin.png);
+  background-size: cover;
+}
+
+.git {
+  background-image: url(../images/github.png);
+  background-size: cover;
+}
