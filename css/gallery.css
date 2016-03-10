@@ -1,0 +1,173 @@
+@media only screen and (min-width: 500px) and (max-width: 766px) {
+  .gallery_content {
+    padding: 20px 50px;
+  }
+  .loading {
+    padding: 15px;
+    font-size: 20px;
+  }
+  #wrap img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .img_20 {
+    width: 20%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .gallery_content {
+    padding: 20px 20px;
+  }
+  .loading {
+    padding: 15px;
+    font-size: 18px;
+  }
+  #wrap img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    /* max-height: 200px;*/
+  }
+  .img_20 {
+    width: 20%;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .gallery_content {
+    padding: 20px 50px;
+  }
+  #wrap img {
+    padding: 5px;
+    height: 230px;
+  }
+  .loading {
+    padding: 15px;
+    font-size: 20px;
+  }
+  .img_20 {
+    width: 20%;
+    display: none;
+  }
+  .img_35 {
+    width: 35%;
+  }
+  .img_45 {
+    width: 45%;
+  }
+  .img_55 {
+    width: 55%;
+  }
+  .img_65 {
+    width: 65%;
+  }
+  .img_100 {
+    width: 100%;
+  }
+  .img_50tab {
+    width: 50%;
+  }
+  .left_float {
+    float: left;
+  }
+  .right_float {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .img_20 {
+    width: 20%;
+  }
+  .img_35 {
+    width: 35%;
+  }
+  .img_45 {
+    width: 45%;
+  }
+  .img_55 {
+    width: 55%;
+  }
+  .img_65 {
+    width: 65%;
+  }
+  .img_100 {
+    width: 100%;
+  }
+  .img_50tab {
+    width: 40%;
+  }
+  .left_float {
+    float: left;
+  }
+  .right_float {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .gallery_content {
+    padding: 30px 50px;
+  }
+  #wrap img {
+    padding: 5px;
+    height: 300px;
+  }
+  .loading {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery_content {
+    padding: 50px 100px;
+  }
+  #wrap img {
+    padding: 5px;
+    height: 350px;
+  }
+  .loading {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+body,
+#page {
+  background-color: #F0F0F0;
+}
+
+.gallery_content {
+  background-color: #F0F0F0;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 100%;
+}
+
+#wrap {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.loading {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+}
+
+#wrap img {
+  box-sizing: border-box;
+  object-fit: cover;
+  object-position: center;
+}

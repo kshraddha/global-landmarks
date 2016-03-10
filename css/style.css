@@ -81,7 +81,7 @@ body {
     margin: 15px;
   }
   .list_image {
-    max-height: 200px;
+    height: auto;
     width: 100%;
     padding: 10px;
   }
@@ -90,34 +90,34 @@ body {
     font-size: 16px;
     padding: 0 10px 10px 10px;
   }
+  .references,
+  .about,
   .social {
     padding: 10px 15px;
     text-align: center;
-  }
-  .references,
-  .about {
-    width: calc((100% - 60px)/2);
-    float: left;
-    padding: 10px 15px;
-    text-align: center;
+    display: block;
   }
   .fb,
   .li,
   .git {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
   }
   footer div a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
   }
   .footer_head {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 500px) {
+  #main_content {
+    margin: auto;
+    max-width: 450px
+  }
   .site_header {
     height: 60px;
   }
@@ -184,7 +184,7 @@ body {
     margin: 20px;
   }
   .list_image {
-    max-height: 300px;
+    height: auto;
     width: 100%;
     padding: 10px;
   }
@@ -193,32 +193,36 @@ body {
     font-size: 16px;
     padding: 0 10px 10px 10px;
   }
-  footer div {
-    width: calc((100% - 120px)/3);
-    height: 100px;
-    float: left;
-    padding: 20px;
+  .references,
+  .about,
+  .social {
+    padding: 10px 15px;
     text-align: center;
-    margin: 0;
+    display: block;
   }
   .fb,
   .li,
   .git {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
   }
   footer div a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
   }
   .footer_head {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
+  #main_content {
+    margin: auto;
+    max-width: 650px;
+  }
   .site_header {
+    width: 100%;
     height: 70px;
     padding: 0 30px
   }
@@ -285,7 +289,7 @@ body {
     margin: 25px;
   }
   .list_image {
-    max-height: 400px;
+    height: auto;
     width: 100%;
     padding: 10px;
   }
@@ -295,11 +299,11 @@ body {
     padding: 0 10px 10px 10px;
   }
   footer div {
-    width: calc((100% - 120px)/3);
+    width: calc((100% - 180px)/3);
     height: 100px;
     float: left;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 30px;
+    text-align: left;
     margin: 0;
   }
   .fb,
@@ -322,6 +326,10 @@ body {
 /*screen size more than 750*/
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
+  #main_content {
+    margin: auto;
+    max-width: 890px;
+  }
   .site_header {
     height: 95px;
     padding: 0 65px
@@ -390,7 +398,7 @@ body {
     margin: 0px 65px;
   }
   .list_image {
-    height: 400px;
+    height: auto;
     width: 100%;
     padding: 10px;
   }
@@ -400,18 +408,18 @@ body {
     padding: 0 10px 10px 10px;
   }
   footer div {
-    width: calc((100% - 180px)/3);
+    width: calc((100% - 390px)/3);
     height: 100px;
     float: left;
-    padding: 20px 30px;
-    text-align: center;
+    padding: 20px 65px;
+    text-align: left;
     margin: 0;
   }
   .fb,
   .li,
   .git {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
   }
   footer div a {
@@ -524,7 +532,7 @@ body {
     margin: 0px 55px;
   }
   .list_image {
-    height: 330px;
+    max-height: 600px;
     width: 100%;
     padding: 10px;
   }
@@ -537,11 +545,11 @@ body {
     display: none;
   }
   footer div {
-    width: calc((100% - 180px)/3);
+    width: calc((100% - 450px)/3);
     height: 100px;
     float: left;
-    padding: 20px 30px;
-    text-align: center;
+    padding: 20px 75px;
+    text-align: left;
     margin: 0;
   }
   .fb,
@@ -635,7 +643,7 @@ body {
     width: calc((100% - 60px)/3);
   }
   .list_image {
-    height: 250px;
+    max-height: 350px;
     width: 100%;
     padding: 10px;
   }
@@ -667,11 +675,11 @@ body {
     font-size: 18px;
   }
   footer div {
-    padding: 10px 30px;
-    width: calc((100% - 180px)/3);
+    padding: 10px 100px;
+    width: calc((100% - 600px)/3);
     height: 100px;
     float: left;
-    text-align: center;
+    text-align: left;
   }
   .footer_head {
     font-size: 23px;
@@ -869,6 +877,7 @@ li.dropdown {
 /* Page content */
 
 .main {
+  overflow: hidden;
   box-sizing: border-box;
   text-align: center;
   max-width: 100%;
@@ -891,13 +900,16 @@ li.dropdown {
   height: 100%;
 }
 
-#slider figure img {
+#slider section div {
   width: 20%;
   float: left;
   height: 100%;
   box-sizing: border-box;
   z-index: -1;
   position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 #site_explore {
@@ -910,7 +922,23 @@ li.dropdown {
   font-weight: 300;
 }
 
-#slider figure {
+#home {
+  background-image: url(../images/homepage_hero.jpg);
+}
+
+#mayan {
+  background-image: url(../images/mayan-ruins.jpg);
+}
+
+#tower {
+  background-image: url(../images/tower.jpg);
+}
+
+#canyon {
+  background-image: url(../images/canyon.jpg);
+}
+
+#slider section {
   overflow: hidden;
   position: relative;
   width: 500%;
@@ -1012,6 +1040,7 @@ li.dropdown {
 }
 
 .list_image {
+  height: auto;
   box-sizing: border-box;
 }
 

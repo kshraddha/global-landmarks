@@ -1,0 +1,566 @@
+h1,
+h4,
+h5 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 350px) {
+  #main_content {
+    padding: 10px;
+  }
+  .background {
+    max-height: 1050px;
+    padding: 10px;
+  }
+  .about_content {
+    height: 1050px;
+  }
+  .photo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .shraddha_img {
+    width: 70%;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .detail_info {
+    max-width: 100%;
+    height: 60%;
+  }
+  .intro {
+    max-width: 100%;
+    padding: 10px 10px;
+    height: calc(60% - 20px);
+  }
+  .intro_title,
+  .contact_title,
+  .skill_title {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .skill {
+    height: 60%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .skills_list {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    width: 33.3%;
+    float: left;
+  }
+  .bottom {
+    max-width: 100%;
+    height: 40%;
+  }
+  .skill_name {
+    padding: 10px;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+  .skill_dash {
+    display: none;
+  }
+  .intro_div {
+    font-size: 14px;
+    text-align: left;
+    padding: 15px;
+  }
+  .contact {
+    height: 40%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  #main_content {
+    padding: 10px;
+  }
+  .background {
+    max-height: 1050px;
+    padding: 10px;
+  }
+  .about_content {
+    height: 1050px;
+  }
+  .photo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .shraddha_img {
+    width: 60%;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .detail_info {
+    max-width: 100%;
+    height: 60%;
+  }
+  .intro {
+    max-width: 100%;
+    padding: 10px 20px;
+    height: calc(60% - 20px);
+  }
+  .intro_title,
+  .contact_title,
+  .skill_title {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .skill {
+    height: 60%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .skills_list {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    width: 33.3%;
+    float: left;
+  }
+  .bottom {
+    max-width: 100%;
+    height: 40%;
+  }
+  .skill_name {
+    padding: 10px;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  .intro_div {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+  }
+  .contact {
+    height: 40%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  #main_content {
+    padding: 30px;
+  }
+  .background {
+    max-height: 1000px;
+    padding: 25px;
+  }
+  .about_content {
+    height: 1000px;
+  }
+  .photo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .shraddha_img {
+    width: 60%;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .detail_info {
+    max-width: 100%;
+    height: 60%;
+  }
+  .intro {
+    max-width: 100%;
+    padding: 10px 20px;
+    height: calc(60% - 20px);
+  }
+  .intro_title,
+  .contact_title,
+  .skill_title {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .skill {
+    height: 60%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .skills_list {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    width: 33.3%;
+    float: left;
+  }
+  .bottom {
+    max-width: 100%;
+    height: 40%;
+  }
+  .skill_name {
+    padding: 10px;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  .intro_div {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+  }
+  .contact {
+    height: 40%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #main_content {
+    padding: 50px;
+  }
+  .background {
+    max-height: 1000px;
+    padding: 25px;
+  }
+  .about_content {
+    height: 1000px;
+  }
+  .photo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .shraddha_img {
+    width: 60%;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .detail_info {
+    max-width: 100%;
+    height: 65%;
+  }
+  .intro {
+    max-width: 100%;
+    padding: 10px 20px;
+    height: 50%;
+  }
+  .intro_title,
+  .contact_title,
+  .skill_title {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .skill {
+    height: 50%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .skills_list {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    text-align: center;
+    width: 33.3%;
+    float: left;
+  }
+  .bottom {
+    max-width: 100%;
+    height: 35%;
+  }
+  .skill_name {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  .intro_div {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+  }
+  .contact {
+    height: 50%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+  #main_content {
+    padding: 25px 50px;
+  }
+  .background {
+    height: 550px;
+    padding: 50px;
+  }
+  .about_content {
+    height: 550px;
+  }
+  .photo {
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 0;
+  }
+  .shraddha_img {
+    width: auto;
+    box-sizing: border-box;
+    height: 90%;
+  }
+  .detail_info {
+    padding: 20px;
+    height: calc(60% - 40px);
+  }
+  .intro {
+    display: table;
+    float: right;
+    width: 60%;
+    height: 100%;
+    padding: 0;
+  }
+  .skill_title {
+    font-size: 22px;
+    padding: 15px;
+  }
+  .bottom {
+    padding: 20px;
+    height: calc(40% - 40px);
+  }
+  .skill {
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    float: right;
+  }
+  .skills_list {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    float: left;
+    width: 33%;
+  }
+  .skill_name {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+  .intro_div {
+    font-size: 18px;
+    text-align: left;
+    padding: 15px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .contact {
+    padding: 20px;
+    width: 30%;
+    float: left;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    margin: 10px 5px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #main_content {
+    padding: 25px 100px;
+  }
+  .background {
+    height: 600px;
+    padding: 50px;
+  }
+  .about_content {
+    height: 600px;
+  }
+  .photo {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 0;
+  }
+  .shraddha_img {
+    width: auto;
+    box-sizing: border-box;
+    height: 90%;
+  }
+  .detail_info {
+    padding: 20px;
+    height: calc(60% - 40px);
+  }
+  .intro {
+    display: table;
+    float: right;
+    width: 60%;
+    height: 100%;
+    padding: 0;
+  }
+  .skill_title {
+    font-size: 25px;
+    padding: 15px;
+  }
+  .bottom {
+    padding: 20px;
+    height: calc(40% - 40px);
+  }
+  .skill {
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    float: right;
+  }
+  .skills_list {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .left_f {
+    float: left;
+    width: 33%;
+  }
+  .skill_name {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+  }
+  .intro_div {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+  }
+  .contact {
+    width: 30%;
+    float: left;
+  }
+  .contact_div {
+    max-width: 250px;
+    margin: auto;
+  }
+  .contact_link {
+    margin: 10px 5px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.background {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nature1.jpg);
+  background-size: cover;
+  max-width: 100%;
+}
+
+.skill_title {
+  color: #202020;
+  font-weight: 600;
+}
+
+.intro {
+  display: table;
+}
+
+.intro_div,
+.skill_name,
+.contact_link {
+  color: #585858;
+  font-weight: 400;
+}
+
+.skill_name {
+  text-align: center;
+}
+
+.contact_link {
+  color: #585858;
+  border-style: solid;
+  border-width: 1px;
+  border-color: border-color;
+  border-radius: 5px;
+}
+
+.skill_dash {
+  color: #355c7d;
+  font-weight: 600;
+}
+
+.about_content {
+  line-height: 160%;
+  max-width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.uop {
+  text-decoration: none;
+  color: #355c7d;
+}

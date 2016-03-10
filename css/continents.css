@@ -23,6 +23,9 @@ body {
   .detail_para {
     padding: 0 10px 10px 10px;
   }
+  .para_title {
+    font-size: 20px;
+  }
   .content_image {
     width: 100%;
   }
@@ -44,6 +47,9 @@ body {
   }
   .detail_para {
     padding: 0 10px 10px 10px;
+  }
+  .para_title {
+    font-size: 20px;
   }
   .content_image {
     width: 100%;
@@ -67,6 +73,10 @@ body {
   }
   .detail_para {
     padding: 0 15px 15px 15px;
+    font-size: 18px;
+  }
+  .para_title {
+    font-size: 20px;
   }
   .content_image {
     width: 100%;
@@ -103,7 +113,7 @@ body {
   }
   .detail_para {
     padding: 25px 15px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .para_title {
     font-size: 25px;
@@ -134,7 +144,7 @@ body {
   }
   .row_image {
     height: 280px;
-    margin: 20px;
+    margin: 20px 30px;
     border-radius: 5px;
   }
   .detail_para {
@@ -170,7 +180,7 @@ body {
   }
   .row_image {
     height: 350px;
-    margin: 20px;
+    margin: 20px 40px;
     border-radius: 5px;
   }
   .detail_para {
